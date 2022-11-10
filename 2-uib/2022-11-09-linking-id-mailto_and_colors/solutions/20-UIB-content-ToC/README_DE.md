@@ -17,4 +17,4 @@ Füge für jeden Listeneintrag im Inhaltsverzeichnis einen Ankerlink hinzu, der 
 
 5. Füge am Ende jedes Abschnitts im Text, vor der nächsten Unterüberschrift, einen "Back to top"-Link ein, der die Seite zurück zum Anfang blättert.
 
-6. Ändere die Nummerierung der verschachtelten Listen in römische Ziffern.
+6. Ändere die Nummerierung der verschachtelten Listen in römische Ziffern. (CSS)
