@@ -5,11 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image</title>
+    <style>
+        a img {
+            /* padding: 5px; */
+            border: 2px solid blue;
+        }
+
+        figure {
+            padding: 1em;
+            text-align: center;
+            background-color: lightgrey;
+        }
+
+        figcaption {
+            font-size: smaller;
+        }
+
+        .float_left {
+            float: left;
+            margin-right: 1ex;
+        }
+        .float_right {
+            float: right;
+            margin-left: 1ex;
+        }
+    </style>
 </head>
 <body>
     <h1>Image <code>img</code></h1>
 
-    <img src="./box-model.jpg" alt="Box Model">
+    <p>
+        Das <code>img</code>-Tag dient dazu Bilder in ein HTML-Dokument zu verwenden.
+    </p>
+
+    <figure>
+        <a href="./box-model.jpg">
+            <img src="./box-model.jpg" alt="Box Model" width="290" height="200">
+        </a>
+        <figcaption>Beschriftung: "Box Model"</figcaption>
+    </figure>
+
+    <p>
+        <img class="float_left" src="./box-model.jpg" alt="Box Model" width="290" height="200">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, consectetur sit? Perspiciatis atque ullam dolorem unde commodi et iure, non veniam itaque optio dolor ad harum, numquam accusantium aspernatur error magnam architecto nobis consectetur sit. Atque deserunt voluptas tempora ratione quas modi, esse nam mollitia molestiae assumenda itaque illum nemo, quod non cum enim ex accusamus fugiat libero! Rem sapiente quae dolor, eligendi suscipit enim maiores possimus quia hic? Dolorum, dicta voluptas ipsa, ut rem, repellat quaerat impedit eaque iusto voluptate provident quam natus eos exercitationem soluta harum iure eum debitis ullam ipsum magnam cum fuga pariatur modi. Magni, exercitationem?
+    </p>
+
+    <p>
+        <img class="float_right" src="./box-model.jpg" alt="Box Model" width="290" height="200">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, consectetur sit? Perspiciatis atque ullam dolorem unde commodi et iure, non veniam itaque optio dolor ad harum, numquam accusantium aspernatur error magnam architecto nobis consectetur sit. Atque deserunt voluptas tempora ratione quas modi, esse nam mollitia molestiae assumenda itaque illum nemo, quod non cum enim ex accusamus fugiat libero! Rem sapiente quae dolor, eligendi suscipit enim maiores possimus quia hic? Dolorum, dicta voluptas ipsa, ut rem, repellat quaerat impedit eaque iusto voluptate provident quam natus eos exercitationem soluta harum iure eum debitis ullam ipsum magnam cum fuga pariatur modi. Magni, exercitationem?
+    </p>
 
 </body>
 </html>
