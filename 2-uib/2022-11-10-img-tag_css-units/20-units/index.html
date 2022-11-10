@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+
+    <style>
+        /* Der '*' selektiert jedes Element. */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        div {
+            background-color: lightblue;
+            border: 2px solid red;
+        }
+
+        .wrapper {
+            border: none;
+            background-color: white;
+        }
+
+        /* --- */
+        .width_px {
+            width: 200px;
+        }
+
+        .width_vw {
+            width: 50vw;
+        }
+
+        .width_em {
+            width: 10em;
+        }
+        /* --- */
+
+        .box_model {
+            margin: auto;
+            justify-content: center;
+            display: flex;
+
+            align-items: center;
+        }
+
+        .box {
+            margin-top: 10px;
+            margin-bottom: 15px;
+
+            background-color: green;
+
+            border: 10px solid red;
+            padding: 50px;
+            padding-bottom: 60px;
+
+            /* height: 100px;
+            width: 100px; */
+        }
+
+        .absolute {
+            height: 200px;
+            width: 200px;
+        }
+
+        .percent {
+            border: 1px solid black;
+            height: 50%;
+            width: 50%;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Units/Längeneinheiten</h1>
+
+    <div class="wrapper">
+        <div class="width_px">200px</div>
+        <div class="width_vw">50vw</div>
+        <div class="width_em">10em (M)</div>
+    </div>
+
+    <div class="box_model">
+        <div class="box">Box</div>
+    </div>
+
+    <div class="absolute">
+        <span class="percent">
+            Percent
+        </div>
+    </div>
+
+</body>
+</html>
