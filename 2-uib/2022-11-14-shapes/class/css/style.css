@@ -7,6 +7,21 @@ h1 > span {
 .shapes div {
   width: 4rem;
   height: 4rem;
-  background-color: orange;
-  /* border: 2px solid black; */
+  margin: 0.2rem;
+  border: 2px solid black;
+}
+.cl {
+  /* top-left | top-right | bottom-right | bottom-left */
+  /* (first radius values) / top-left-and-bottom-right | top-right-and-bottom-left */
+  border-radius: 50%;
+  background-color: yellow;
+}
+.sp {
+  background-color: green;
+}
+.rq {
+  width: 8rem;
+  background-color: blue;
+}
+.tra {
 }
