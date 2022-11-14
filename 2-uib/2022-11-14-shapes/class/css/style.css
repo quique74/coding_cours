@@ -4,3 +4,9 @@ h1 {
 h1 > span {
   color: orange;
 }
+.shapes div {
+  width: 4rem;
+  height: 4rem;
+  background-color: orange;
+  /* border: 2px solid black; */
+}
