@@ -4,6 +4,10 @@ h1 {
 h1 > span {
   color: orange;
 }
+.shapes {
+  width: 15rem;
+  border: 2px dashed red;
+}
 .shapes div {
   width: 4rem;
   height: 4rem;
@@ -19,9 +23,15 @@ h1 > span {
 .sp {
   background-color: green;
 }
-.rq {
+.shapes .rq {
   width: 8rem;
   background-color: blue;
 }
-.tra {
+/* DRY -> Don't repeat yourself */
+.shapes .tra {
+  width: 0;
+  height: 0;
+  border-top: 80px solid purple;
+  border-left: 40px solid red;
+  border-bottom: 0px solid yellow;
 }
